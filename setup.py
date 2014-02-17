@@ -9,6 +9,7 @@ NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 version = '0.1'
 
 install_requires = [
+    'manuel',
 ]
 
 
@@ -30,8 +31,4 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
-    entry_points={
-        'console_scripts':
-            ['docsix=docsix:main'],
-    },
 )

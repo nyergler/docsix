@@ -9,3 +9,8 @@ develop-eggs
 tmp
 build
 dist
+
+lib/
+lib64/
+local/
+include/
