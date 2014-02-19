@@ -1,6 +1,9 @@
 DocSix
 ======
 
+.. image:: https://travis-ci.org/nyergler/docsix.png?branch=master
+   :target: https://travis-ci.org/nyergler/docsix
+
 *DocSix* is a tool which helps you run your doctests_ under both
 Python 2 and Python 3 (specifically 3.3 and later).
 
